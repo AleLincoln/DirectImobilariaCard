@@ -1,0 +1,438 @@
+
+.theme-custom{
+background: url(https://cdn.filestackcontent.com/pjpg=q:80/no_metadata/cache=expiry:max/compress=m:true/JhMxHo2GQ4ykPKYIFGiv) #000000 no-repeat;
+background-size: cover;
+background-position: center 50%;
+font-family: 'Montserrat', sans-serif;
+}
+
+.theme-custom::before{
+content: "";
+background-color: #000000;
+opacity: 0.5;
+position: fixed;
+top: 0;
+bottom: 0;
+right: 0;
+left: 0;
+z-index: -1;   
+}
+
+
+
+
+.theme-custom .smartpage-container,
+.theme-custom .smartpage-container .bio-title,
+.theme-custom .smartpage-container h1,
+.theme-custom .smartpage-container h2,
+.theme-custom .smartpage-container h3,
+.theme-custom .smartpage-container h4{
+color: #FFFFFF;
+
+}
+
+.theme-custom .smartpage-container .powered-by-shorby .shorby-logo:before {
+border-color: #FFFFFF;
+}
+
+.theme-custom .smartpage-container .block-item.layout-button {
+background: #0077FF;
+color: #FFFFFF;
+}
+
+.theme-custom .smartpage-container .add-block-button,
+.theme-custom .smartpage-container .avatar.empty,
+.theme-custom .smartpage-container .avatar-editor .avatar-upload {
+color: rgba(255,255,255,0.5);
+border-color: rgba(255,255,255,0.5);
+}
+
+
+.theme-custom .smartpage-container .bio-title h1.empty span{
+border-color: #FFFFFF;
+}
+
+
+.theme-custom .smartpage-container .service-button{
+background: rgba(255,255,255,0.5);
+color: #000000;
+}
+
+.theme-custom .smartpage-container, .theme-custom .smartpage-container .bio-title, .theme-custom .smartpage-container h1, .theme-custom .smartpage-container h2, .theme-custom .smartpage-container h3, .theme-custom .smartpage-container h4 {
+    color: #FFFFFF;
+}
+.smartpage-container {
+    position: relative;
+    z-index: 10;
+}
+.smartpage-container, .smartpage-container h1, .smartpage-container h2, .smartpage-container h3, .smartpage-container h4, .smartpage-container h5, .smartpage-container h6, .smartpage-container .h1, .smartpage-container .h2, .smartpage-container .h3, .smartpage-container .h4, .smartpage-container .h5, .smartpage-container .h6 {
+    color: #000;
+}
+
+
+
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+
+
+.smartpage-container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 600px;
+    margin: 0 auto;
+    padding-bottom: 16px;
+    padding-top: 16px;
+}
+
+
+@media (min-width: 768px){
+.container {
+    max-width: 720px;
+}}
+@media (min-width: 576px){
+.container {
+    max-width: 540px;
+}}
+.container {
+    width: 100%;
+    padding-right: .62em;
+    padding-left: .62em;
+    margin-right: auto;
+    margin-left: auto;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.smartpage-container .avatar {
+    display: block;
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    margin: 16px auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -moz-object-fit: cover;
+    -webkit-object-fit: cover;
+    object-fit: cover;
+    position: relative;
+    cursor: pointer;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+.smartpage-container .bio-title {
+ 
+    margin: 0 auto;
+    padding-bottom: 16px;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+
+.smartpage-container .messengers {
+    display: flex;
+    
+}
+
+.smartpage-container ol, .smartpage-container ul, .smartpage-container dl, .smartpage-container li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+ol, ul, dl {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+
+element.style {
+}
+.smartpage-container .messengers.blocks-num-3 .links-block, .smartpage-container .messengers.blocks-num-4 .links-block, .smartpage-container .messengers.blocks-num-5 .links-block, .smartpage-container .messengers.blocks-num-6 .links-block, .smartpage-container .messengers.blocks-num-7 .links-block, .smartpage-container .messengers.blocks-num-8 .links-block, .smartpage-container .messengers.blocks-num-9 .links-block, .smartpage-container .messengers.blocks-num-10 .links-block, .smartpage-container .messengers.blocks-num-11 .links-block, .smartpage-container .messengers.blocks-num-12 .links-block {
+    max-width: 33.33333%;
+}
+
+.smartpage-container .messengers .links-block {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.smartpage-container .messengers .links-block {
+    max-width: 33.33333%;
+    display: inline-block;
+    width: 100%;
+}
+.smartpage-container .links-block {
+    display: block;
+    max-width: 400px;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 1.4;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    padding: 0;
+    padding-bottom: 16px;
+}
+.smartpage-container ol, .smartpage-container ul, .smartpage-container dl, .smartpage-container li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+user agent stylesheet
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.theme-custom .smartpage-container .block-item.layout-button {
+    background: #0077FF;
+    color: #FFFFFF;
+}
+
+.smartpage-container .block-item.layout-button, .smartpage-container .block-item.layout-button-thumbnail, .smartpage-container .block-item.layout-button-image-bg, .smartpage-container .block-item.layout-card, .smartpage-container .block-item.layout-countdown.card-style {
+    background: #000;
+    color: #fff;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0px 10px 35px -5px rgb(0 0 0 / 20%);
+    font-weight: 600;
+}
+.smartpage-container .block-item {
+    display: block;
+    transition: transform 0.5s;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    cursor: pointer;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+element.style {
+}
+.smartpage-container .block-item.block-item>span, .smartpage-container .block-item.block-item>.block-content, .smartpage-container .block-item.block-item>a {
+    display: inline-block;
+    padding: 16px 24px;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+
+.theme-custom .smartpage-container .block-item.layout-button {
+    background: #0077FF;
+    color: #FFFFFF;
+}
+.smartpage-container .block-item.layout-button, .smartpage-container .block-item.layout-button-thumbnail, .smartpage-container .block-item.layout-button-image-bg, .smartpage-container .block-item.layout-card, .smartpage-container .block-item.layout-countdown.card-style {
+    background: #000;
+    color: #fff;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0px 10px 35px -5px rgb(0 0 0 / 20%);
+    font-weight: bolder;
+}
+.smartpage-container .block-item {
+    display: block;
+    transition: transform 0.5s;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    cursor: pointer;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+}
+
+.smartpage-container .block-item .fa-block-icon, .smartpage-container .block-item .fa-network {
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 2rem;
+    margin-top: -7px;
+    margin-bottom: -7px;
+}
+
+.svg-inline--fa, svg:not(:root).svg-inline--fa {
+    overflow: visible;
+}
+.smartpage-container .fa-network {
+    font-size: 1.4em;
+    margin-bottom: -0.2em;
+}
+.svg-inline--fa.fa-w-14 {
+    width: .875em;
+}
+.svg-inline--fa {
+    display: inline-block;
+    font-size: inherit;
+    height: 1em;
+    vertical-align: -.125em;
+}
+
+.smartpage-container .messengers .block-item .fa-network+span {
+    display: none;
+}
+
+.smartpage-container .block-item .fa-block-icon+span, .smartpage-container .block-item .fa-block-icon+a, .smartpage-container .block-item .fa-network+span, .smartpage-container .block-item .fa-network+a {
+    margin-left: 0.6em;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+.smartpage-container ol, .smartpage-container ul, .smartpage-container dl, .smartpage-container li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+ol, ul, dl {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.smartpage-container .block-item.layout-text {
+    padding: 16px 24px;
+    padding-bottom: 0;
+    cursor: inherit;
+}
+
+.smartpage-container .block-item.layout-text .block-title, .smartpage-container .block-item.layout-countdown .block-title {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.smartpage-container .block-item.layout-text .block-text, .smartpage-container .block-item.layout-countdown .block-text {
+    font-size: 15px;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+.smartpage-container .social-links {
+    text-align: center;
+    font-size: 1.4em;
+}
+
+.smartpage-container ol, .smartpage-container ul, .smartpage-container dl, .smartpage-container li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.smartpage-container .social-links .social-item {
+    display: inline-block;
+    padding: 16px 8px;
+    margin: 0;
+    width: 33.333%;
+    text-align: center;
+}
+.smartpage-container .social-links .social-item a, .smartpage-container .social-links .social-item span {
+    cursor: pointer;
+    color: inherit;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.smartpage-container .bio-title h1 {
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.smartpage-container .bio-title .bio-description{
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 1.4;
+    display: flex;
+    font-weight: 500;
+    box-sizing: border-box;
+}
+
+
+    
+
+    
+
+    
+
+  
+ 
